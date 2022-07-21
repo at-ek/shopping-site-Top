@@ -1,0 +1,67 @@
+.content {
+  padding: 64px 0;
+}
+.content h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Verdana";
+}
+.content .item-next {
+  font-size: 3rem;
+  color: #252525;
+  width: max-content;
+  margin: 0 auto;
+  display: block;
+}
+
+.content .item-container {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+.content .item-container .item {
+  width: 40%;
+}
+.content .item-container .item .item-img {
+  display: block;
+  margin-bottom: 16px;
+}
+.content .item-container .item .item-name {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.content .item-container .item .item-price {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .content h2 {
+    font-size: 2.7rem;
+  }
+  .content .item-next {
+    font-size: 3.2rem;
+  }
+  .content .item-container .item {
+    width: 25%;
+  }
+  .content .item-container .item .item-name {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .content .item-container .item .item-price {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .content .item-container .item {
+    width: 20%;
+  }
+}
